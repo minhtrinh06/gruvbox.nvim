@@ -28,7 +28,12 @@ describe("tests", function()
         folds = true,
       },
       strikethrough = true,
-      inverse = true,
+      inverse = {
+        search = true,
+        cursor = true,
+        statusline = true,
+        errors = true,
+      },
       invert_selection = false,
       invert_signs = false,
       invert_tabline = false,

@@ -75,7 +75,12 @@ require("gruvbox").setup({
   invert_signs = false,
   invert_tabline = false,
   invert_intend_guides = false,
-  inverse = true, -- invert background for search, diffs, statuslines and errors
+  inverse = { -- invert background for search, cursor, statusline and errors
+    search = true,
+    cursor = true,
+    statusline = true,
+    errors = true,
+  }
   contrast = "", -- can be "hard", "soft" or empty string
   palette_overrides = {},
   overrides = {},
