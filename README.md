@@ -1,3 +1,16 @@
+## This is a simple fork to separate the inverse config into it's components.
+Like so:
+
+```
+inverse = { -- invert background for search, cursor, statusline and errors
+    search = true,
+    cursor = true,
+    statusline = true,
+    errors = true,
+  }
+```
+
+
 <div align="center">
       <h1> <img src="https://i.postimg.cc/WpQzgxVh/plugin-Icon.png" width="80px"><br/>gruvbox.nvim</h1>
      </div>
